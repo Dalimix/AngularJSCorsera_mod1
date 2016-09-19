@@ -21,7 +21,7 @@ function LunchCheckController($scope){
   };
 
   function notEmpty(elem){
-    return elem !="";
+    return elem.trim() !="";
   }
 
 }
